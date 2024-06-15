@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with EmailJS</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <div id="app">
+        <img src="https://advancedsecurityllc.com/wp-content/uploads/2023/04/ADC-VDB750.jpg" alt="">
+        <h5>15% Off Doorbell</h5>
+        <h2>LGCY Discount</h2>
+
+        <div class="container contact_container">
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Link to your JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
